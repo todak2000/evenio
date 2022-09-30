@@ -8,7 +8,7 @@
 .join >h4{
     font-weight: 600;
     margin: 0 0 0.6rem;
-    color: #EB3F0F;
+    color: #007dc3;
     line-height: 5rem;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
@@ -34,14 +34,14 @@
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    background-image: linear-gradient(230deg, #FCF1F9 0%, #FFFFFF 100%);
+    background-image: linear-gradient(230deg, #6cbeef 0%, #FFFFFF 100%);
     box-shadow: 0px 0px 40px 0px rgb(0 0 0 / 13%);
     width:29%;
     padding:1rem;
     margin-top: 1rem;
 }
 .card:hover{
-    background-image: linear-gradient(135deg, #28a745 55%, #FEC200 100%);
+    background-image: linear-gradient(135deg, #e0ffff 55%, #FEC200 100%);
 }
 
 .card >p{
@@ -64,7 +64,7 @@
 .call-to-action{
     padding: 1rem 2rem;
     background-color: transparent;
-    background-image: linear-gradient(170deg, #EB3F0F 15%, #FEC200 100%);
+    background-image: linear-gradient(170deg, #007dc3 15%, #FEC200 100%);
     border-radius: 4px;
     font-family: "Poppins", Sans-serif;
     font-size: 1.2rem;

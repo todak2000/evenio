@@ -40,7 +40,7 @@
 .left-card{
     background-color: #FFFFFF;
     display: flex;
-    width:20%;
+    width:30%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -112,9 +112,10 @@
 .inner-card > div > h3 >hr{
         width: 25px;
         height: 3px;
-        background: #fa0368;
+        background: #007dc3;
         display: inline-block;
         margin-right: 1rem;
+        border:0;
         margin-bottom: 0.2rem;
 }
 .inner-card > div > p{
@@ -125,7 +126,7 @@
 }
 .tab-card-active{
     width: 25%;
-    background-image: linear-gradient(170deg, #EB3F0F 15%, #FEC200 100%);
+    background-image: linear-gradient(170deg, #007dc3 15%, #FEC200 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
