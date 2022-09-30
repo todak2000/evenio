@@ -1,0 +1,54 @@
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15vh 10vh 15vh 10vh;
+    flex-wrap: wrap;
+    background-color: #F8F8F8;
+    background-image: url(https://rstheme.com/products/wordpress/evenio/wp-content/uploads/2021/11/counter6.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.data-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:1rem;
+}
+.data-row >img{
+    max-height: 75px;
+    margin-right: 1rem;
+}
+.data-row > div > h2{
+    color: #0A0A0A;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom:0;
+}
+.data-row > div > p{
+    color: #454545;
+    font-size: 18px;
+    color: #666;
+    margin-top: 0;
+    line-height: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+
+
+@media (max-width: 768px) {
+    .data{
+        display: flex;
+        flex-direction: column;
+        padding:0;
+
+    }
+    .data-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding:0rem;
+    }
+}

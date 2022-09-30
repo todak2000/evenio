@@ -1,0 +1,36 @@
+.app {
+  /* padding:1vh 15vh; */
+}
+.nav-padding{
+  position: fixed;
+  top:0;
+  width:90%;
+  padding:1vh 10vh;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 20px -10px rgb(0 0 0 / 80%);
+}
+.backup{
+  width:60px;
+  height: 60px;
+  background-color: #EB3F0F;
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .app {
+    
+  }
+  .nav-padding{
+    padding:1vh 3vh;
+  }
+  
+}

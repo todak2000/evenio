@@ -1,0 +1,119 @@
+.ticket{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 10vh 5vh 10vh;
+    background-image: url("../../assets/schedule_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #F8F8F8;
+    
+}
+.ticket >h4, .ticket-card >h4{
+    font-weight: 600;
+    margin: 0 0 0.6rem;
+    color: #EB3F0F;
+    line-height: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+.ticket >h1, .ticket-card >h1{
+    font-weight: 700;
+    margin: 0px 0px 27px 0px;
+    color: #0a0a0a;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+}
+.ticket >div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+.ticket-card{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 0%);
+    width:30%;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.ticket-card >div {
+    margin-bottom: 3rem;
+}
+.pass-img{
+    width:13px;
+    margin-right:1rem;
+}
+.ticket-card >div > p{
+    font-weight: 500;
+    margin: 0px 0px 0.5rem 0px;
+    color: #44455B;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+}
+.call-to-action-ticket{
+    padding: 1rem;
+    background-color: transparent;
+    background-image: linear-gradient(170deg, #EB3F0F 15%, #FEC200 100%);
+    border-radius: 4px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top:1rem;
+    transition-property: background-image;
+    transition-duration: 1.5s;
+    color:#ffffff;
+    text-decoration: none;
+}
+.call-to-action-ticket:hover{
+    background-image: linear-gradient(170deg, #28a745 15%, #28a745 100%);
+}
+
+
+@media (max-width: 768px) {
+    .ticket{
+        padding: 5vh ;
+
+        height: auto;
+        
+    }
+    .ticket >h4{
+        font-weight: 600;
+        margin: 0 0 0.6rem;
+        color: #EB3F0F;
+        line-height: 5rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+    }
+    .ticket >h1{
+        font-weight: 700;
+        margin: 0px 0px 27px 0px;
+        color: #0a0a0a;
+        line-height: 28px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+    }
+    .ticket >div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+    .ticket-card{
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 0%);
+        width:95%;
+        padding: 2rem 0;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    
+}

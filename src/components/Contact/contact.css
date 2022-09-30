@@ -1,0 +1,139 @@
+.contact{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    margin-top:5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    border:0;
+    width:90%;
+    height:90vh;
+}
+.map-img{
+    width: 40px;
+    height: 40px;
+}
+.top-left{
+    position: relative;
+    margin-bottom:-35%;
+    margin-left: -55%;
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    background-image: linear-gradient(170deg, #EB3F0F 15%, #FEC200 100%);
+}
+.top-left > h2{
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color:#ffffff;
+}
+.write{
+    margin-left: 2rem;
+}
+.write >h4{
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color:#ffffff;
+    margin:0;
+}
+.write >p{
+    font-size: 0.85rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color:#ffffff;
+    margin:0;
+}
+.top-left >div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:2rem;
+}
+.bottom{
+    background-image: url("../../assets/subscribe_bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 10vh;
+    width:60%;
+    padding: 3% 10%;
+    margin-top:-5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input{
+    color: #cccccc;
+    background-color: #ffffff;
+    font-size: 0.85rem;
+    height: 50px;
+    width:250px;
+    font-family: 'Poppins';
+    border: none;
+    padding-left: 18px;
+    border-radius: 4px 0 0 4px;
+}
+.input-button{
+    background: #eb3f0f;
+    font-size: 15px;
+    height: 50px;
+    width:60px;
+    border: none;
+    padding-left: 18px;
+    border-radius: 0 4px 4px 0;
+}
+.bottom >div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bottom >div >h4{
+    font-size: 1.8rem;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color:#ffffff;
+    margin:0;
+    margin-left: 1rem;
+    
+}
+@media (max-width: 768px) {
+    .top-left{
+        position: relative;
+        margin-bottom:5%;
+        margin-left: 0%;
+    }
+    .bottom{
+        height: 25vh;
+        width:80%;
+        padding: 3% 5%;
+        margin-top:0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bottom >div >h4{
+        font-size: 0.9rem;
+        font-family: 'Poppins';
+        font-weight: 700;
+        color:#ffffff;
+        margin:0;
+        margin-left: 1rem;
+        margin-bottom:5%;
+        
+    }
+    .bottom >div{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .input, .input-button{
+        height: 40px;
+        margin-top:2rem;
+    }
+}

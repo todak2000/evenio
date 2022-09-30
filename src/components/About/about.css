@@ -1,0 +1,70 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15vh 10vh 15vh 10vh;
+}
+.about >img{
+    width: 50%;
+    height: auto;
+}
+
+.about-writeup-div{
+    padding: 0 0 0 3rem;
+    width: 45%;
+}
+.about-writeup-div > h4{
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: #EB3F0F;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+.about-writeup-div > h3{
+    font-weight: 700;
+    margin: 0 ;
+    line-height: 2.2rem;
+    color: #0a0a0a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.0rem;
+}
+.about-writeup-div > p{
+    margin: 2rem 0 2rem 0 ;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+.about-writeup-div > a{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    background-image: linear-gradient(170deg, #EB3F0F 15%, #FEC200 100%);
+    border-radius: 4px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#ffffff;
+    text-decoration: none;
+}
+.about-writeup-div > a:hover{
+    background-image: linear-gradient(170deg, #28a745 15%, #28a745 100%);
+}
+@media (max-width: 768px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding: 10vh 3vh;
+    }
+    .about >img{
+        width: 100%;
+        height: auto;
+    }
+    .about-writeup-div{
+        padding: 3vh 1vh;
+        width: 100%;
+    }
+    .about-writeup-div > h3{
+        line-height: 2.2rem;
+        font-size: 1.8rem;
+    }
+}

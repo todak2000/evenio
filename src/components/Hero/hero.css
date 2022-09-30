@@ -1,0 +1,99 @@
+.hero{
+    background-image: url("../../assets/bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100vh;
+}
+.writeup-div{
+    padding: 30vh 0 0 10vh;
+}
+.writeup-div >h1 {
+    font-size: 7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #EB3F0F;
+    margin: 0;
+}
+.writeup-div > h4 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1px;
+    letter-spacing: 2px;
+    color: #0A0A0A;
+    margin: 1rem 0;
+}
+.writeup-div >p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1px;
+    letter-spacing: 0px;
+    color: #0A0A0A;
+    margin: 3rem 0;
+}
+.call-to-action{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    background-image: linear-gradient(170deg, #EB3F0F 15%, #FEC200 100%);
+    border-radius: 4px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition-property: background-image;
+    transition-duration: 1.5s;
+    color:#ffffff;
+    text-decoration: none;
+}
+.call-to-action:hover{
+    background-image: linear-gradient(170deg, #28a745 15%, #28a745 100%);
+}
+
+@media (max-width: 768px) {
+    .hero{
+        height: 60vh;
+    }
+    .writeup-div{
+        padding: 20vh 3vh 0 3vh;
+    }
+    .writeup-div >h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        color: #EB3F0F;
+        margin: 0;
+    }
+    .writeup-div > h4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1px;
+        letter-spacing: 2px;
+        color: #0A0A0A;
+        margin: 1rem 0;
+    }
+    .writeup-div >p{
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 1px;
+        letter-spacing: 0px;
+        color: #0A0A0A;
+        margin: 2rem 0 3rem 0;
+    }
+    .writeup-div > a{
+        padding: 1rem 2rem;
+        background-color: transparent;
+        background-image: linear-gradient(170deg, #EB3F0F 15%, #FEC200 100%);
+        border-radius: 4px;
+        font-family: "Poppins", Sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color:#ffffff;
+        text-decoration: none;
+    }
+    
+  }
