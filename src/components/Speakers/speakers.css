@@ -4,12 +4,11 @@
     justify-content: center;
     align-items: center;
     padding: 5vh 10vh 5vh 10vh;
-    margin-bottom: 2rem;
 }
 .join >h4{
     font-weight: 600;
     margin: 0 0 0.6rem;
-    color: #007dc3;
+    color: #EB3F0F;
     line-height: 5rem;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
@@ -87,7 +86,7 @@
     background-color: #0a0a0a;
 }
 .cardy:hover{
-    background-image: linear-gradient(135deg, #e0ffff 55%, #FEC200 100%);
+    background-image: linear-gradient(135deg, #28a745 55%, #FEC200 100%);
 }
 
 .card >p{
@@ -110,7 +109,7 @@
 .call-to-action{
     padding: 1rem 2rem;
     background-color: transparent;
-    background-image: linear-gradient(170deg, #007dc3  15%, #FEC200 100%);
+    background-image: linear-gradient(170deg, #EB3F0F 15%, #FEC200 100%);
     border-radius: 4px;
     font-family: "Poppins", Sans-serif;
     font-size: 1.2rem;

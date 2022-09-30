@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo.png';
 import hamburger from '../../assets/hamburger.png';
 import close from '../../assets/close.png';
 import { useState } from 'react';

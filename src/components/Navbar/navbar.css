@@ -17,7 +17,7 @@
     align-items: center;
 }
 .normal-nav:hover{
-    color:#007dc3;
+    color:#eb3f0f;
 }
 .normal-nav{
     font-size: 0.9rem;
@@ -70,7 +70,7 @@
         top: 0;
         left:0;
         height:40vh;
-        background: linear-gradient(80deg, #0e7afe 40%, #1d2d5c 120%);
+        background: linear-gradient(80deg, #1a0b8c 40%, #fa50cb 120%);
         padding-top:5vh;
         justify-content: flex-start;
         align-items: flex-start;
