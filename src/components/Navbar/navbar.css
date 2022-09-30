@@ -34,11 +34,11 @@
     margin: 0 1rem;
     padding: 0.5rem 0.8rem;
     border-radius: 4px;
-    background-color: #007dc3;
-    -webkit-transition: background-color 1s ease-out;
+    background-color: #eb3f0f;
+    -webkit-transition: background-color 1.5s ease-out;
     -moz-transition: background-color 1s ease-out;
     -o-transition: background-color 1s ease-out;
-    transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out; 
     color:#ffffff;
     text-decoration: none;
 }
