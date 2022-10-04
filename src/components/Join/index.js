@@ -32,7 +32,7 @@ function Join() {
           <div className='card'>
             <img src={creativity} alt="networking logo"/>
             <h3>Spark Creativity</h3>
-            <p><b>Activate your creativity switch  by emerging yourself among ISACA OC chapter members.</b> Talking to members, listening to their opinions or even just asking a member for their perspective on your cybersecurity problem can help you increase creativity.</p>
+            <p><b>Activate your creativity by emerging yourself among ISACA OC chapter members.</b> . Talking,listening or even just asking a member for their perspective on your cybersecurity problem can help you increase creativity.</p>
             <h2>03</h2>
           </div>
 
@@ -54,7 +54,7 @@ function Join() {
             <img src={party} alt="networking logo"/>
             <h3>After Party</h3>
             <p>Being part of ISACA OC chapter is valuable to gain insights in cybersecurity industry. You can also win ISACA OC swag merchandise by participating during events or surveys or social media posts.</p>
-            <h2>05</h2>
+            <h2>06</h2>
           </div>
         </div>
         <a href='#ticket-section' className="call-to-action" >ISACA OC social media</a>
