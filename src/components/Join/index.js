@@ -57,7 +57,7 @@ function Join() {
             <h2>06</h2>
           </div>
         </div>
-        <a href='#ticket-section' className="call-to-action" >ISACA OC social media</a>
+        <a href='https://www.linkedin.com/company/isaca-oc' className="call-to-action" >ISACA OC social media</a>
       </section>
   );
 }

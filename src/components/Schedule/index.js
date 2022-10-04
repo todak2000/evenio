@@ -40,16 +40,16 @@ useEffect(() => {
       <section className="schedule" id="schedule-section">
         <section className='tab'>
           <div className={select === 1 ? 'tab-card-active': 'tab-card'} onClick={()=>{handleSelect(1)}}>
-            <h2>Day 1</h2>
-            <p>2021-12-18</p>
+            <h2>October</h2>
+            {/* <p>2021-12-18</p> */}
           </div>
           <div className={select === 2 ? 'tab-card-active': 'tab-card'} onClick={()=>{handleSelect(2)}}>
-            <h2>Day 2</h2>
-            <p>2021-12-18</p>
+            <h2>November</h2>
+            {/* <p>2021-12-18</p> */}
           </div>
           <div className={select === 3 ? 'tab-card-active': 'tab-card'} onClick={()=>{handleSelect(3)}}>
-            <h2>Day 3</h2>
-            <p>2021-12-18</p>
+            <h2>December</h2>
+            {/* <p>2021-12-18</p> */}
           </div>
         </section>
         <section className='tab-result'>

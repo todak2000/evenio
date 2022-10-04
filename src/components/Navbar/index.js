@@ -21,10 +21,10 @@ function Navbar() {
         <div className='nav-div'>
             <a href='#hero-section' className='normal-nav'>Home</a>
             <a href='#about-section' className='normal-nav'>About</a>
-            <a href='#speaker-section' className='normal-nav'>Speakers</a>
-            <a href='#schedule-section' className='normal-nav'>Schedules</a>
-            <a href='#contact-section' className='normal-nav'>Contact</a>
-            <a href='#ticket-section' className='button-nav'>Buy Tickets</a>  
+            <a href='#speaker-section' className='normal-nav'>Board</a>
+            <a href='#schedule-section' className='normal-nav'>Events</a>
+            <a href='#footer' className='normal-nav'>Contact</a>
+            <a href='#ticket-section' className='button-nav'>Donate NOW</a>  
         </div>
         <img src={hamburger} className="hamburger" alt="hamburger" onClick={()=>{toggle()}}/>
         {clickHamburger && 
@@ -32,10 +32,10 @@ function Navbar() {
             <div className='close'><img src={close} className="hamburger" alt="hamburger" onClick={()=>{toggle()}}/></div>
             <a href='#hero-section' className='normal-nav'>Home</a>
             <a href='#about-section' className='normal-nav'>About</a>
-            <a href='#speaker-section' className='normal-nav'>Speakers</a>
-            <a href='#schedule-sectio' className='normal-nav'>Schedules</a>
-            <a href='#contact-section' className='normal-nav'>Contact</a>
-            <a href='#ticket-section' className='button-nav'>Buy Tickets</a>  
+            <a href='#speaker-section' className='normal-nav'>Board</a>
+            <a href='#schedule-section' className='normal-nav'>Events</a>
+            <a href='#footer' className='normal-nav'>Contact</a>
+            <a href='#ticket-section' className='button-nav'>Donate NOW</a> 
         </div>
       }
         

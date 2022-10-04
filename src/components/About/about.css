@@ -5,7 +5,7 @@
     padding: 15vh 10vh 15vh 10vh;
 }
 .about >img{
-    width: 50%;
+    width: 47%;
     height: auto;
 }
 .homepage{
@@ -14,7 +14,7 @@
 }
 .about-writeup-div{
     padding: 0 0 0 3rem;
-    width: 45%;
+    width: 50%;
 }
 .about-writeup-div > h4{
     font-weight: 600;
@@ -27,16 +27,17 @@
 .about-writeup-div > h3{
     font-weight: 700;
     margin: 0 ;
-    line-height: 2.2rem;
+    line-height: 2rem;
     color: #0a0a0a;
     font-family: 'Poppins', sans-serif;
-    font-size: 2.0rem;
+    font-size: 1.5rem;
 }
 .about-writeup-div > p{
-    margin: 2rem 0 2rem 0 ;
+    margin: 0.1rem 0 2rem 0 ;
+    line-height: 1.1rem;
     color: #333333;
     font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
+    font-size: 0.85rem;
 }
 .about-writeup-div > a{
     padding: 1rem 2rem;
