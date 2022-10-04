@@ -30,7 +30,7 @@ function Data() {
           <img src={ticket} alt="speaker"/>
           <div>
             <h2><CountUp isCounting end={201} duration={3.2} />+</h2>
-            <p>Tickets</p>
+            <p>Events</p>
           </div>
         </div>
 

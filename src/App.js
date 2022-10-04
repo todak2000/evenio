@@ -7,7 +7,7 @@ import Join from './components/Join';
 import Schedule from './components/Schedule';
 import Speakers from './components/Speakers';
 import Ticket from './components/Ticket';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Footer from './components/Footer';
 import {useEffect, useState} from 'react';
 import up from './assets/up.png'
@@ -52,7 +52,7 @@ function App() {
       <Schedule />
       <Speakers />
       <Ticket />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );

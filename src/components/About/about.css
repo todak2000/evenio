@@ -8,7 +8,10 @@
     width: 50%;
     height: auto;
 }
-
+.homepage{
+    text-decoration: none;
+    color:#EB3F0F;
+}
 .about-writeup-div{
     padding: 0 0 0 3rem;
     width: 45%;

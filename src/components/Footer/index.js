@@ -9,7 +9,7 @@ function Footer() {
        <img src={logo} className="logo" alt="logo" />
        <div>
             <div>
-                <h4>Address</h4>
+                <h4>Raise a support ticket</h4>
                 <p>2089 New Market , New Road, North Carolina, U.S.A</p>
             </div>
        </div>
@@ -27,7 +27,7 @@ function Footer() {
        </div>
       </header>
       <div className='end'>
-        <p>© 2021 Evenio, All Rights Reserved. re-created By Daniel Olagunju</p>
+        <p>© 2031 ISACA OC chapter, All Rights Reserved</p>
         <ul className='roww'>
             <li>Home</li>
             <li>About</li>

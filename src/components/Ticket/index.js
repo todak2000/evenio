@@ -12,8 +12,8 @@ function Ticket() {
 
   return (
       <section className="ticket" id="ticket-section">
-        <h4>TICKETS</h4>
-        <h1>Purchase Your Ticket</h1>
+        <h4>PARTNERS</h4>
+        <h1>Donate to support</h1>
         <div>
           {tickets.map((item)=>{
             return (

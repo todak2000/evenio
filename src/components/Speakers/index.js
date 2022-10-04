@@ -6,8 +6,8 @@ function Speakers() {
 
   return (
       <section className="join" id="speaker-section">
-        <h4>SPEAKERS</h4>
-        <h1>Event Speakers</h1>
+        <h4>BOARD</h4>
+        <h1>Meet chapter leaders</h1>
         <div>
           {speakers?.map((item)=>{
             return (
