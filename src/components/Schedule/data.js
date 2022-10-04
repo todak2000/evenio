@@ -11,9 +11,10 @@ export const dayOne = [
       message: "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
       imageOne: personOne,
       imageTwo: personTwo,
-      from: "10:00",
-      to: "12:00",
-      room: "Room #2"
+      day: "Tuesday Oct 11, 2022",
+      time: "5pm PST",
+      // to: "12:00",
+      // room: "Room #2"
     },
   ]
   export const dayThree = [
@@ -23,9 +24,8 @@ export const dayOne = [
       message: "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
       imageOne: personThree,
       imageTwo: personTwo,
-      from: "10:00",
-      to: "12:00",
-      room: "Room #2"
+      day: "Tuesday Dec 11, 2022",
+      time: "5pm PST",
     },
     
   ]
@@ -37,9 +37,8 @@ export const dayOne = [
       message: "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
       imageOne: personThree,
       imageTwo: personFour,
-      from: "10:00",
-      to: "12:00",
-      room: "Room #2"
+      day: "Tuesday Nov 11, 2022",
+      time: "5pm PST",
     },
 
 

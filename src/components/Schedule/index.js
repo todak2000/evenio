@@ -60,8 +60,8 @@ useEffect(() => {
                 <div className='inner-card' key={item?.id}>
                   <div className='left-card'>
                     <img src={sch_time} alt="schtime logo"/>
-                    <h2>{item?.from} - {item?.to}</h2>
-                    <p>{item?.room}</p>
+                    <h2>{item?.day}</h2>
+                    <p>{item?.time}</p>
                   </div>
 
                   <div className='right-inner'>
