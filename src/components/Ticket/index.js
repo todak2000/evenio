@@ -27,11 +27,12 @@ function Ticket() {
                   {/* <p> <img src={item.id === 3 || item.id === 2? markup: markdown} alt="markup" className='pass-img'/> Welcome Reception</p>
                   <p> <img src={item.id === 3 ? markup: markdown} alt="markup" className='pass-img'/>Welcome Reception</p> */}
                 </div>
-                <a href='#sds' className="call-to-action-ticket" >DONATE NOW</a>
+                {/* <a href='#sds' className="call-to-action-ticket" >DONATE NOW</a> */}
               </div>
             )
           })}
         </div>
+        <a href='#sds' className="call-to-action-ticket" >DONATE NOW</a>
       </section>
   );
 }
