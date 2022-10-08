@@ -14,9 +14,9 @@ function About() {
             <p>Welcome to the ISACA Orange County Chapter. The aim of the Chapter is to sponsor local educational seminars and workshops, conducts regular chapter meetings, and help to further promote and elevate the visibility of the IS audit, control and security profession throughout Orange County, California.
               ISACA is the premier location for CISOs, CIOs, Directors, etc. in the InfoSec, Audit, Risk, Cyber Security, Compliance and Privacy space. For a few years, the focus had been on risk, audit and perhaps fraud investigation, etc. but over the last 18 months to 2 years our focus has been strongly around InfoSec and Cyber Security.
               We have 900+ registered members on our monthly mailing list, about 30% of our members are Senior Level (Director and above IT / Security / Cyber Security); about 30% are Compliance / Risk / Privacy and Fraud; another 25% are Audit professionals; 5% – 10% are students or in some form or professional education.
-              <br></br><a className='homepage' href="https://web.archive.org/web/20211206044355/https:/engage.isaca.org/orangecountychapter/home"> ISACA Global Engage Website</a>
+              <br></br><a className='homepage' href="https://engage.isaca.org/orangecountychapter/home" target="_blank" rel="noreferrer"> ISACA Global Engage Website</a>
             </p>
-            <a href='https://www.linkedin.com/company/isaca-oc' >Engage on Social Media</a>
+            <a href=' https://www.linkedin.com/company/isaca-oc/' target="_blank" rel="noreferrer">Engage on Social Media</a>
        </div>
       </section>
   );
