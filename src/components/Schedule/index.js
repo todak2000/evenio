@@ -27,7 +27,9 @@ const handleSelect = (n)=>{
   }
 
 }
-const url = "http://127.0.0.1:8000/"
+// const url = "http://127.0.0.1:8000/"
+const url = "https://vtf-server.onrender.com"
+
 const getEventSchedule = async () => { 
   try {
       const resp = await axios.get(`${url}/isaca-events`);
