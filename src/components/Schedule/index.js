@@ -1,18 +1,20 @@
 
-import { dayOne, dayTwo, dayThree } from './data';
+import { months, imageDummy } from './data';
 
 import sch_time from '../../assets/sch_time_black.png';
 
 import { useState, useEffect } from 'react';
-
+import axios from 'axios'
 import './schedule.css';
-
 
 
 function Schedule() {
 const [data, setData]=useState();
+const [dayOne, setDayOne]=useState([]);
+const [dayTwo, setDayTwo]=useState([]);
+const [dayThree, setDayThree]=useState([]);
 const [select, setSelect] =useState(1)
-
+// 
 const handleSelect = (n)=>{
   if (n === 1){
     setSelect(1)
@@ -23,7 +25,44 @@ const handleSelect = (n)=>{
   else if (n === 3){
     setSelect(3)
   }
+
 }
+// const url = "http://127.0.0.1:8000/"
+const url = "https://vtf-server.onrender.com"
+
+const getEventSchedule = async () => { 
+  try {
+      const resp = await axios.get(`${url}/isaca-events`);
+      // month one
+      let one = resp.data.events.filter((item)=>item.month === months[0].month).map(filteredItemDayOne=>{
+        return filteredItemDayOne
+      })
+      setDayOne(one)
+      setData(one)
+      // console.log(one, "one")
+      // month two
+      let two = resp.data.events.filter((item)=>item.month === months[1].month).map(filteredItemDayTwo=>{
+        return filteredItemDayTwo
+        
+      })
+      setDayTwo(two)
+      // month three
+      let three = resp.data.events.filter((item)=>item.month === months[2].month).map(filteredItemDayThree=>{
+        return filteredItemDayThree
+        
+      })
+      setDayThree(three)
+      // return resp.data.events
+  } catch (err) {
+      // Handle Error Here
+      console.error(err);
+  }
+};
+
+useEffect(() => {
+  getEventSchedule();
+},[])
+
 useEffect(() => {
   if (select === 1){
     setData(dayOne)
@@ -37,20 +76,15 @@ useEffect(() => {
 }, [select])
 
   return (
-      <section className="schedule" id="schedule-section">
+      <section className="schedule" >
         <section className='tab'>
-          <div className={select === 1 ? 'tab-card-active': 'tab-card'} onClick={()=>{handleSelect(1)}}>
-            <h2>October</h2>
-            {/* <p>2021-12-18</p> */}
+        {months?.map((item)=>{
+          return(
+            <div key={item.id} className={select === item.id ? 'tab-card-active': 'tab-card'} onClick={()=>{handleSelect(item.id)}}>
+            <h2>{item.month}</h2>
           </div>
-          <div className={select === 2 ? 'tab-card-active': 'tab-card'} onClick={()=>{handleSelect(2)}}>
-            <h2>November</h2>
-            {/* <p>2021-12-18</p> */}
-          </div>
-          <div className={select === 3 ? 'tab-card-active': 'tab-card'} onClick={()=>{handleSelect(3)}}>
-            <h2>December</h2>
-            {/* <p>2021-12-18</p> */}
-          </div>
+          )
+        })}
         </section>
         <section className='tab-result'>
         <div className='result'>
@@ -68,8 +102,8 @@ useEffect(() => {
                     <h3> <hr></hr>{item?.title}</h3>
                     <p>{item?.message}</p>
                   </div>
-                  <img src={item?.imageOne} className="img" alt="schtime logo"/>
-                  <img src={item?.imageTwo} className="img" alt="schtime logo"/>
+                  <img src={imageDummy[1]?.imageOne} className="img" alt="schtime logo"/>
+                  <img src={imageDummy[2]?.imageTwo} className="img" alt="schtime logo"/>
                 </div>
                 
                 

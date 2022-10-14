@@ -92,6 +92,9 @@
 .result-left{
     width: 20%;
 }
+.right-inner{
+    width:70%;
+}
 .result{
     width: 100%;
     background-color: #fff;
