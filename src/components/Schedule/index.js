@@ -52,6 +52,7 @@ const getEventSchedule = async () => {
         
       })
       setDayThree(three)
+      console.log(resp.data.events)
       // return resp.data.events
   } catch (err) {
       // Handle Error Here
@@ -102,8 +103,8 @@ useEffect(() => {
                     <h3> <hr></hr>{item?.title}</h3>
                     <p>{item?.message}</p>
                   </div>
-                  <img src={imageDummy[1]?.imageOne} className="img" alt="schtime logo"/>
-                  <img src={imageDummy[2]?.imageTwo} className="img" alt="schtime logo"/>
+                  <img src={item?.speaker_imgUrl} className="img" alt="schtime logo"/>
+                  {/* <img src={imageDummy[2]?.imageTwo} className="img" alt="schtime logo"/> */}
                 </div>
                 
                 
