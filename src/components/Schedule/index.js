@@ -38,7 +38,7 @@ const getEventSchedule = async () => {
       let months = resp.data.months
       
       setMonthsData(months)
-      // console.log(resp.data, "efefe")
+      console.log(resp.data.events[0].month, "efefe")
       // month one
       let one = resp.data.events.filter((item)=>item.month === monthsData[0].month).map(filteredItemDayOne=>{
         return filteredItemDayOne
