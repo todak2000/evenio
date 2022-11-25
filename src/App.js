@@ -8,6 +8,7 @@ import Schedule from './components/Schedule';
 import Speakers from './components/Speakers';
 import Ticket from './components/Ticket';
 // import Contact from './components/Contact';
+import Partners from './components/Partners';
 import Footer from './components/Footer';
 import {useEffect, useState} from 'react';
 import up from './assets/up.png'
@@ -52,6 +53,7 @@ function App() {
       <Schedule />
       <Speakers />
       <Ticket />
+      <Partners />
       {/* <Contact /> */}
       <Footer />
     </div>
